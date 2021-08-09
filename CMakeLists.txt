@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.11)
+
+PROJECT(openmp)
+
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
+
+# chapter 2
+ADD_EXECUTABLE(hh hh.cpp)
+ADD_EXECUTABLE(hp hp.cpp)
+
+# chapter 3
+ADD_EXECUTABLE(ps ps.cpp)
